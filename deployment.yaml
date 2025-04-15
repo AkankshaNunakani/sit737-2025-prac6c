@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: node-app
-        image:  akanksha/node-app:v2
+        image:  akankshanunakani/node-app:v2
         ports:
         - containerPort: 8080
