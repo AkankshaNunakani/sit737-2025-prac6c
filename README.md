@@ -1,10 +1,10 @@
-## Cloud-Native App with Kubernetes
+# Cloud-Native App with Kubernetes
 This project demonstrates deploying a simple Node.js application to a Kubernetes cluster, interacting with it via kubectl, and updating it using best practices of CI
-# Part I :Interact with the Deployed Application
-Used commands 
-kubectl get pods
-kubectl get services
-# Part II Updating the App
+## Part I :Interact with the Deployed Application
+ ### Used commands 
+ #### kubectl get pods
+ #### kubectl get services
+## Part II Updating the App
 To update the application:
 1.  the code in app.js
 
