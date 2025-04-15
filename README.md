@@ -1,5 +1,15 @@
-<<<<<<< HEAD
-# sit737-2025-prac6p
-=======
-# sit737-2025-prac6c
->>>>>>> da6ba1f9925b14fbf15fbab8af344ecfa6a504d1
+## Cloud-Native App with Kubernetes
+This project demonstrates deploying a simple Node.js application to a Kubernetes cluster, interacting with it via kubectl, and updating it using best practices of CI
+# Part I :Interact with the Deployed Application
+Used commands 
+kubectl get pods
+kubectl get services
+# Part II Updating the App
+To update the application:
+1.  the code in app.js
+
+2. Build a new Docker image with a new tag (e.g., v3)
+
+3. Push it to DockerHub
+
+4. Update deployment.yaml with the new image tag
